@@ -1,0 +1,74 @@
+[
+  {
+    "firstName": "Juliana",
+    "lastName": "Lee",
+    "url": "https://kunde1.dvinci.de",
+    "login": "https://kunde1.dvinci.de/login"
+  },
+  {
+    "firstName": "Terika",
+    "lastName": "Cole",
+    "url": "https://kunde2.dvinci.de",
+    "login": "https://kunde2.dvinci.de/login"
+  },
+  {
+    "firstName": "Daniela",
+    "lastName": "Johnston",
+    "url": "https://kunde3.dvinci.de",
+    "login": "https://kunde3.dvinci.de/login"
+  },
+  {
+    "firstName": "Liam",
+    "lastName": "Holmes",
+    "url": "https://kunde4.dvinci.de",
+    "login": "https://kunde4.dvinci.de/login"
+  },
+  {
+    "firstName": "William",
+    "lastName": "Reed",
+    "url": "https://kunde5.dvinci.de",
+    "login": "https://kunde5.dvinci.de/login"
+  },
+  {
+    "firstName": "Joe",
+    "lastName": "Butler",
+    "url": "https://kunde6.dvinci.de",
+    "login": "https://kunde6.dvinci.de/login"
+  },
+  {
+    "firstName": "Frederick",
+    "lastName": "Porter",
+    "url": "https://kunde7.dvinci.de",
+    "login": "https://kunde7.dvinci.de/login"
+  },
+  {
+    "firstName": "Alvin",
+    "lastName": "Ruiz",
+    "url": "https://kunde8.dvinci.de",
+    "login": "https://kunde8.dvinci.de/login"
+  },
+  {
+    "firstName": "Jetta",
+    "lastName": "Woods",
+    "url": "https://kunde9.dvinci.de",
+    "login": "https://kunde9.dvinci.de/login"
+  },
+  {
+    "firstName": "Brenda",
+    "lastName": "Reyes",
+    "url": "https://kunde10.dvinci.de",
+    "login": "https://kunde10.dvinci.de/login"
+  },
+  {
+    "firstName": "Fernando",
+    "lastName": "Martin",
+    "url": "https://kunde11.dvinci.de",
+    "login": "https://kunde11.dvinci.de/login"
+  },
+  {
+    "firstName": "Steve",
+    "lastName": "Perry",
+    "url": "https://kunde12.dvinci.de",
+    "login": "https://kunde12.dvinci.de/login"
+  }
+]

@@ -1,0 +1,76 @@
+html {
+  font-size: 16px;
+  font-family: sans-serif;
+}
+body {
+  background-color: #003a5d;
+}
+h1 {
+  margin: 0;
+  border-bottom: 2px solid;
+  font-weight: normal;
+}
+.container {
+  margin: 2rem auto;
+  padding: 1rem;
+  max-width: 60em;
+  min-height: 75vh;
+  border: 1px solid #ccc;
+  border-radius: 0.25rem;
+  background-color: #fff;
+  color: #003a5d;
+}
+input:focus {
+  outline: none;
+}
+
+.form-control {
+  position: relative;
+  left: 30px;
+  display: inline-block;
+  width: 90%;
+  padding-top: 20px;
+  text-align: left;
+  border: none;
+  border-bottom: 2px solid red;
+  box-sizing: border-box;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  /* background-color: #003a5d; */
+  color: #fff;
+  margin-top: 20px;
+  /* margin-left: 50px; */
+  border-radius: 0.25rem;
+}
+
+td,
+th {
+  /* border: 1px solid #ddd; */
+  padding: 20px;
+  color: #003a5d;
+}
+
+tr:nth-child(even) {
+  background-color: rgb(231, 229, 229);
+}
+tr:hover {
+  background-color: #dbedf8;
+}
+table th {
+  /* padding-top: 20px 12px; */
+  background-color: #003a5d;
+  color: #fff;
+  font-weight: normal;
+  /* text-transform: uppercase; */
+  text-align: left;
+}
+
+.customerName {
+  cursor: pointer;
+  color: aqua;
+}
+
+/*# sourceMappingURL=index.8b44e92a.css.map */

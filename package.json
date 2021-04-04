@@ -1,0 +1,12 @@
+{
+  "name": "recruiting-hack-anna-main",
+  "version": "1.0.0",
+  "description": "Willkommen beim d.vinci Recruing-Hack. Wir freuen uns auf deine Umsetzung! :-)",
+  "main": "index.html",
+  "scripts": {
+    "start": "parcel index.html"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

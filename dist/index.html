@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Titel</title>
+    <link href="/index.8b44e92a.css" rel="stylesheet">
+    <link rel="shortcut icon" href="/favicon.00d93d9e.ico">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Systemübersicht</h1>
+      <input type="text" id="search-input" class="form-control" placeholder="Suchen">
+      <table>
+        <thead>
+          <tr>
+            <th class="customerName" data-column="firstName" data-order="desc">
+              Kundenname
+            </th>
+            <th>externe URL</th>
+            <th>Login-Seite</th>
+          </tr>
+        </thead>
+        <tbody id="tableData" class="styled-table__body"></tbody>
+      </table>
+
+      <!-- 
+	Hier folgt die Liste der Systeme: Jeweils mit Link zum externen Bereich und zur Login-Seite. Beispiel:
+	
+	Kundenname | externe URL      | Login-Seite
+	------------------------------------------------------
+	Kunde1     | kunde1.dvinci.de | kunde1.dvinci.de/login
+	Kunde2     | kunde2.dvinci.de | kunde2.dvinci.de/login
+	Kunde3     | kunde3.dvinci.de | kunde3.dvinci.de/login
+	
+	-->
+    </div>
+    <script src="/index.48b585a2.js"></script>
+  </body>
+</html>
