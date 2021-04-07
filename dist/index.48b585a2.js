@@ -445,12 +445,14 @@ id) /*: string*/
 var _kundenJson = require("./kunden.json");
 var _parcelHelpers = require("@parcel/transformer-js/lib/esmodule-helpers.js");
 var _kundenJsonDefault = _parcelHelpers.interopDefault(_kundenJson);
+// Zugriff auf HTML Elemente
 const customerName = document.querySelector(".customerName");
 const tableBody = document.getElementById("tableData");
 // let sortDirection = false;
 window.addEventListener("DOMContentLoaded", () => {
   loadTableData(_kundenJsonDefault.default);
 });
+// manipulieren die Tabelle
 function loadTableData(customerData) {
   let dataHtml = "";
   for (let customer of customerData) {
@@ -466,9 +468,7 @@ function loadTableData(customerData) {
 }
 customerName.addEventListener("click", function () {
   tableBody.innerHTML = "";
-  // let column = this.dataset.column;
   let order = this.dataset.order;
-  // let order = $(this).data("order");
   console.log("order was clickt", order);
   if (order === "desc") {
     this.dataset.order = "asc";

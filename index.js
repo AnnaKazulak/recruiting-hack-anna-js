@@ -1,5 +1,5 @@
 import jsonData from "./kunden.json";
-
+// Zugriff auf HTML Elemente
 const customerName = document.querySelector(".customerName");
 const tableBody = document.getElementById("tableData");
 // let sortDirection = false;
@@ -7,7 +7,7 @@ const tableBody = document.getElementById("tableData");
 window.addEventListener("DOMContentLoaded", () => {
   loadTableData(jsonData);
 });
-
+// manipulieren die Tabelle
 function loadTableData(customerData) {
   let dataHtml = "";
 
@@ -25,9 +25,7 @@ function loadTableData(customerData) {
 
 customerName.addEventListener("click", function () {
   tableBody.innerHTML = "";
-  // let column = this.dataset.column;
   let order = this.dataset.order;
-  // let order = $(this).data("order");
   console.log("order was clickt", order);
 
   if (order === "desc") {

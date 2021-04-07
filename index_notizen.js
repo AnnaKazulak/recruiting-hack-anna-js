@@ -1,7 +1,7 @@
 import jsonData from "./kunden.json";
 
 // Parcel umożliwia importy tak jak Vuejs :) :)
-//ale co po kolei trzeba zrobic? bo sie pogubilam
+//ale co po kolei trzeba zrobic?
 
 /* Oto przepis na importowanie plików z osobnego pliku .js (bez serwera):
   1. Pobierz parcel (albo jakikolwiek serwer - możesz też napisać własny)

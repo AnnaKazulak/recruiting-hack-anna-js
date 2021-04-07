@@ -24,7 +24,7 @@ input:focus {
   outline: none;
 }
 
-.form-control {
+/* .form-control {
   position: relative;
   left: 30px;
   display: inline-block;
@@ -34,7 +34,7 @@ input:focus {
   border: none;
   border-bottom: 2px solid red;
   box-sizing: border-box;
-}
+} */
 
 table {
   border-collapse: collapse;
@@ -70,7 +70,7 @@ table th {
 
 .customerName {
   cursor: pointer;
-  color: aqua;
+  /* color: aqua; */
 }
 
 /*# sourceMappingURL=index.8b44e92a.css.map */
